@@ -1,5 +1,5 @@
 from PIL import Image
-from functions.grayScale import grayScale
+from src.functions.grayScale import grayScale
 def yellowsepia(img, quantity):
     im = grayScale(img)
     pixels = im.load()

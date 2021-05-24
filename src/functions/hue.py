@@ -52,7 +52,7 @@ def hue(img, hue):
 
     def helper2(colors):
         hsv = rgb_to_hsv(colors[0], colors[1], colors[2])
-        ans = hsv_to_rgb(hsv[0]+(hue), hsv[1] , hsv[2])
+        ans = hsv_to_rgb(hsv[0]*(hue), hsv[1] , hsv[2])
         return int(ans[0]), int(ans[1]), int(ans[2])
         # dontMax = 0
         #         # dontMin = 300

@@ -1,5 +1,5 @@
 from PIL import Image
-def temp(img, tempVal):
+def temperature(img, tempVal):
     im = Image.open(img)
     pixels = im.load()
 
