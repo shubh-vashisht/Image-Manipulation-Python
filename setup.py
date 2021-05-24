@@ -19,19 +19,19 @@ long_description = ('README.md').read_text(encoding='utf-8')
 
 setup(
 
-    name='sampleproject',  # Required
+    name='pysvap',  # Required
 
-    version='2.0.0',  # Required
+    version='1.0.0',  # Required
 
-    description='A sample Python project',  # Optional
+    description='A python library for image Manipulation which implements different algorithm designs on rgb values of each individual pixel ',  # Optional
 
-    long_description=long_description,  # Optional
+    long_description=,  # Optional
 
     long_description_content_type='text/markdown',  # Optional (see note above)
 
-    url='https://github.com/pypa/sampleproject',  # Optional
+    url='https://github.com/shubh-vashisht/Image-Manipulation-Pythongi',  # Optional
 
-    author='A. Random Developer',  # Optional
+    author='Shubh Vashisht and Aman PriyaDarshi',  # Optional
 
     author_email='author@example.com',  # Optional
 
