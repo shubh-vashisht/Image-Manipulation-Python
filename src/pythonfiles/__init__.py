@@ -11,6 +11,8 @@ from src.functions.sepia import yellowsepia
 from src.functions.sepia import blueSepia
 from src.functions.sepia import MixedSepia
 from src.functions.temp import temperature
+from src.function.overlay import overLay
+from src.functions.colorShift import colorShift
 
 
 Blur = gaussianBlur
@@ -21,15 +23,14 @@ post = posterize
 lightn = lighten
 darkn = darken
 pixel8 = pixelate
-ysepia = yellowsepia
+ysepia = yellowSepia
 bsepia = blueSepia
 msepia = MixedSepia
 temp = temperature
+overLay = overLay
+colorShift = colorShift
+
+# pixel8('/Users/shubh/PycharmProjects/ImageManipulation/sampleImages/4f503844d9a44b0350c25eeefae028d3.jpeg',50).show()
 
 
-
-
-
-
-
-
+pixel8("/Users/shubh/PycharmProjects/ImageManipulation/sampleImages/shubh.jpg", 50).show()
